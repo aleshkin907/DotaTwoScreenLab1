@@ -131,28 +131,13 @@ fun Header(){
 
 @Composable
 fun HeaderStats() {
-//    Text(text = "rating and amount of installations")
 
-//    Image(
-//        painter = painterResource(R.drawable.stars),
-//        contentDescription = "stars",
-//        modifier = Modifier.size(76.dp, 12.dp)
-//    )
     ConstraintLayout(
         modifier = Modifier
             .padding(start = 0.dp)
     ){
         val (title, rowDown) = createRefs()
-//        Text(
-//            "DoTA 2",
-//            color = colorResource(id = R.color.white),
-//            modifier = Modifier
-//                .padding(top = 5.dp)
-//                .constrainAs(title){},
-//            fontSize = 20.sp,
-//            fontWeight = FontWeight.Bold,
-//            letterSpacing = 0.5.sp
-//        )
+
         Row(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(10.dp),
